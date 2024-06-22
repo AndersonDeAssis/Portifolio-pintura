@@ -1,0 +1,76 @@
+.link-whats-mobile {
+    margin: 10px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: var(--blue-marine);
+    font-style: italic;
+}
+
+.whats-mobile {
+    height: 20px;
+    margin-right: 10px;
+    transform: translateY(4px);
+    background-color: var(--blue-marine);
+    padding: 2px;
+    border-radius: 50%;
+}
+
+#foto-perfil {
+    background-image: url(../imagens/foto-perfil-pequena2.png);
+    position: relative;
+    margin: auto;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 154px;
+    display: block;
+    border: solid 2px var(--blue-marine);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.div-photo-profile {
+    display: block;
+    width: 100vw;
+}
+
+.div-photo-profile>img {
+    display: block;
+    margin: 20px auto;
+    border: solid 1px var(--blue-marine);
+    border-radius: 50%;
+}
+
+.description-profile {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.description-profile>h2 {
+    color: var(--blue-marine);
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.description-profile>p {
+    text-align: justify;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+strong {
+    color: var(--blue-marine);
+}
+
+hr {
+    background-color: var(--blue-marine);
+    height: 1px;
+    border: none;
+    width: 90%;
+    margin: 30px auto 20px auto;
+}

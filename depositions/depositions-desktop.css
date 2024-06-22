@@ -1,0 +1,12 @@
+@media screen and (min-width:1024px) {
+
+    .article-social {
+        flex-direction: row;
+    }
+
+    .card-social:nth-child(4),
+    .card-social:nth-child(5) {
+        display: block;
+        text-align: center;
+    }
+}

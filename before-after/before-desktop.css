@@ -1,0 +1,13 @@
+@media screen and (min-width:1024px) {
+
+    .banner-slide {
+        background-image: url(../imagens/fundo-cimento-queimado-grande.jpg);
+        width: 100vw;
+        height: 500px;
+    }
+
+    .works {
+        display: flex;
+        flex-direction: row;
+    }
+}

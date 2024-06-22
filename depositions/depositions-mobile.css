@@ -1,0 +1,36 @@
+#section-depositions>div>h2 {
+    text-align: center;
+    color: var(--blue-marine);
+}
+
+.article-social {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-social {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--grey);
+    border: 2px solid var(--blue-marine);
+    color: var(--blue-marine);
+}
+
+.card-social:nth-child(4),
+.card-social:nth-child(5) {
+    display: none;
+}
+
+.card-social>img {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.card-social>p {
+    text-align: center;
+    padding: 20px 0px;
+}

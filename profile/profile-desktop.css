@@ -1,0 +1,38 @@
+@media screen and (min-width:1024px) {
+
+    #foto-perfil {
+        background-image: url(../imagens/foto-perfil-media.png);
+        height: 300px;
+        width: 307px;
+    }
+
+    #section-profile {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .div-photo-profile>img {
+        height: 300px;
+    }
+
+    .description-profile {
+        gap: 30px;
+    }
+
+    .description-profile>h2 {
+        text-align: right;
+        margin: 0px 80px 20px 0px;
+    }
+
+    .description-profile>p {
+        padding-right: 80px;
+    }
+
+    .description-profile>strong {
+        color: var(--blue-marine);
+    }
+
+    .link-whats-mobile {
+        display: none;
+    }
+}

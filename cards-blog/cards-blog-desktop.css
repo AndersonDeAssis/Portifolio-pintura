@@ -1,0 +1,32 @@
+@media screen and (min-width:1024px) {
+
+    #section-cards-blog>article {
+        flex-direction: row;
+    }
+
+    .cards-blog-third {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        height: 300px;
+        width: 300px;
+        background-color: var(--grey);
+        box-shadow: 1px 1px 5px var(--black);
+    }
+
+    .cards-blog-third>img {
+        height: 50%;
+    }
+
+    .cards-blog-third>a {
+        color: var(--blue-marine);
+        font-weight: 600;
+        font-size: 1.3em;
+        padding: 0px 20px;
+    }
+
+    .cards-blog-third>.read-more {
+        font-size: 1em;
+        font-style: italic;
+    }
+}

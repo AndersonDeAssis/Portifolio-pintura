@@ -1,0 +1,99 @@
+@media screen and (min-width:1024px) {
+
+    #section-emphasis>h2 {
+        text-align: center;
+    }
+
+    #section-emphasis>p {
+        max-width: 1330px;
+        margin: 20px auto;
+    }
+
+    .image-emphasis {
+        background: url(../imagens/banners.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 500px;
+        padding: 0px;
+    }
+
+    .services {
+        background-color: #ffffffe0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 500px;
+    }
+
+    .services>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        justify-content: center;
+        border: 8px solid var(--blue-marine);
+        height: 400px;
+        width: 450px;
+        border-radius: 0px 50px 50px;
+    }
+
+    .services>div>h3 {
+        margin-top: 20px;
+        font-size: 1.5em;
+        color: var(--blue-marine);
+    }
+
+    .services>div>ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .services>div>ul>li>a {
+        padding: 5px 20px;
+        border-radius: 50px;
+        font-size: 1.3em;
+        color: var(--blue-marine);
+    }
+
+    .services>div>ul>li>a:hover {
+        background-color: var(--blue-cian);
+        color: var(--white);
+    }
+
+    .call {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 500px;
+        width: 50%;
+        height: 500px;
+    }
+
+    .call>p {
+        text-shadow: 3px 3px 0px #fff;
+        text-align: center;
+        font-size: 4em;
+        color: var(--blue-marine);
+        font-weight: 600;
+        transform: translateY(15px);
+    }
+
+    .call>.house {
+        transform: translateY(-15px);
+        font-weight: 800;
+        font-size: 7em;
+    }
+
+    .works {
+        flex-direction: row;
+        gap: 50px;
+        justify-content: center;
+    }
+}

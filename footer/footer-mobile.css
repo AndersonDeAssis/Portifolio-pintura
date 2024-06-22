@@ -1,0 +1,31 @@
+#footer-contact {
+    padding: 10px;
+    font-size: 14px;
+    color: var(--black);
+}
+
+#footer-contact>p {
+    text-align: center;
+}
+
+#footer-contact>hr {
+    height: 1px;
+    width: 200px;
+    background-color: var(--blue-marine);
+    border: none;
+}
+
+#footer-contact>:nth-child(1) {
+    margin-bottom: 2px;
+}
+
+#footer-contact>p>strong {
+    color: var(--blue-cian);
+    cursor: pointer;
+}
+
+.whats {
+    height: 15px;
+    margin-right: 5px;
+    transform: translateY(2px);
+}

@@ -1,0 +1,96 @@
+.background-header {
+    background-image: url(../imagens/houses-66-desfocado.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-header>span {
+    color: var(--white);
+    position: absolute;
+}
+
+.title-anderson1 {
+    font-weight: 700;
+    top: 80px;
+    left: 15px;
+}
+
+.title-anderson2 {
+    border-radius: 50px;
+    padding: 2px 20px;
+    font-weight: 400;
+    font-style: italic;
+    top: 100px;
+    left: 60px;
+    font-size: 12px;
+}
+
+.menu {
+    display: none;
+}
+
+#menu-hamburguer {
+    position: absolute;
+    width: 100vw;
+    top: 20px;
+    right: 20px;
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    z-index: 2;
+}
+
+#menu-hamburguer>div {
+    background-color: var(--blue-cian);
+    height: 3px;
+    width: 30px;
+    border-radius: 15px;
+}
+
+#section-hamburguer {
+    width: 50vw;
+    height: 100vh;
+    background: linear-gradient(to top, var(--blue-cian), var(--white)50%);
+    position: absolute;
+    left: 150%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 0.8s ease-in-out;
+    pointer-events: none;
+    /*faz com que o usurio nao consiga clicar em algo que ainda nao esta aparecendo*/
+}
+
+#section-hamburguer.active {
+    left: 50%;
+    pointer-events: all;
+}
+
+#section-hamburguer>li {
+    font-weight: 600;
+    margin: 0px 30px;
+    pointer-events: all;
+}
+
+#section-hamburguer>li>a {
+    color: var(--blue-cian);
+}
+
+.logo-hamburguer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.logo-hamburguer>img {
+    height: 50px;
+    width: 50px;
+}
+
+.logo-hamburguer>p {
+    color: var(--white);
+}
