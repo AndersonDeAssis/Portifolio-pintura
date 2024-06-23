@@ -67,7 +67,7 @@ strong {
     color: var(--blue-marine);
 }
 
-hr {
+.line-profile {
     background-color: var(--blue-marine);
     height: 1px;
     border: none;

@@ -1,6 +1,7 @@
 .background-header {
     background-image: url(../imagens/houses-66-desfocado.jpg);
     height: 200px;
+    /* width: 100vw; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -32,7 +33,6 @@
 
 #menu-hamburguer {
     position: absolute;
-    width: 100vw;
     top: 20px;
     right: 20px;
     align-items: end;
@@ -53,18 +53,18 @@
     width: 50vw;
     height: 100vh;
     background: linear-gradient(to top, var(--blue-cian), var(--white)50%);
-    position: absolute;
-    left: 150%;
-
-    display: flex;
+    position: fixed;
+    display: none;
     flex-direction: column;
     justify-content: space-around;
-    transition: 0.8s ease-in-out;
     pointer-events: none;
+    
     /*faz com que o usurio nao consiga clicar em algo que ainda nao esta aparecendo*/
 }
 
+
 #section-hamburguer.active {
+    display: flex;
     left: 50%;
     pointer-events: all;
 }

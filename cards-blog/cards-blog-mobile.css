@@ -1,4 +1,5 @@
 #section-cards-blog {
+    width: 100vw;
     padding: 20px;
     display: flex;
     flex-direction: column;

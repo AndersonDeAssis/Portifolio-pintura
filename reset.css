@@ -14,10 +14,22 @@
     font-style: normal;
 }
 
+/*trilho da scroll-bar*/
+::-webkit-scrollbar{
+    background-color: var(--grey);
+    width: 10px;
+}
+
+/*A própria scroll-bar*/
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color:var(--blue-cian);
+}
+
 .class-body {
     overflow-x: hidden;
-    background-color: white;
-    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    /* width: calc(100% - 10px);     */
 }
 
 :root{
