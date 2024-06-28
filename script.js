@@ -1,17 +1,19 @@
-const menuHamburguer = document.getElementById('menu-hamburguer')
-const sectionHamburguer = document.getElementById('section-hamburguer')
+let ballTemeDark = document.querySelector('.button-case')
+let ball = document.querySelector('.ball')
+let raizSite = document.documentElement
 
-menuHamburguer.addEventListener("click", () => 
-sectionHamburguer.classList.toggle('active'))
+ballTemeDark.addEventListener('click', () => {
+    ballTemeDark.classList.toggle('dark')
+    ball.classList.toggle('dark')
+    raizSite.classList.toggle('dark')
 
-/*Dentro de menuOptions Para cada (for each) menuOptions será
-adicionado um addEventListener com a função click executando o {}*/ 
+    localStorage.setItem ("darkMode", "on")
+})
 
-const menuOptions = document.querySelectorAll('.menu-options')
+var buttonMenu = document.getElementById('menu-hamburguer')
+var ulHamburguer = document.getElementById('ul-hamburguer')
 
+buttonMenu.addEventListener("click", ()=>{
+    ulHamburguer.classList.toggle('open')
 
-menuOptions.forEach(menuOptions => {
-    menuOptions.addEventListener("click", () => {
-        sectionHamburguer.classList.toggle('active');
-    });
-});
+})

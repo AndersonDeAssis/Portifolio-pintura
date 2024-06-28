@@ -1,5 +1,5 @@
 #section-three-images>h2 {
-    color: var(--blue-marine);
+    color: light-dark(var(--blue-marine), var(--white));
     text-align: center;
     margin: 20px;
 }
@@ -27,7 +27,7 @@
     background-position: center;
     width: 150px;
     height: 200px;
-    border: 2px solid var(--blue-marine);
+    border: 2px solid light-dark(var(--blue-marine), var(--white));
 }
 
 .before-one {

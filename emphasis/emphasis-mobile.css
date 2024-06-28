@@ -5,7 +5,7 @@
 
 #section-emphasis>h2 {
     text-align: center;
-    color: var(--blue-marine);
+    color: light-dark(var(--blue-marine),var(--white));
 }
 
 #section-emphasis>p {
@@ -27,7 +27,7 @@
 
 .services>div>h3 {
     text-align: center;
-    color: var(--blue-marine);
+    color: light-dark(var(--blue-marine),var(--white));
 }
 
 .nav-works>ul {
@@ -37,13 +37,13 @@
 }
 
 .nav-works>ul>li>a {
-    color: var(--blue-marine);
+    color: light-dark(var(--blue-marine),var(--pink));
     padding: 2px 15px;
 }
 
 .nav-works>ul>li>a:hover {
-    background-color: var(--blue-marine);
-    color: var(--white);
+    background-color: light-dark(var(--blue-marine),var(--grey));
+    color: light-dark(var(--white),var(--black));
 }
 
 .call {

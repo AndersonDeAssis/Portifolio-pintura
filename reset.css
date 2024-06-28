@@ -16,20 +16,20 @@
 
 /*trilho da scroll-bar*/
 ::-webkit-scrollbar{
-    background-color: var(--grey);
-    width: 10px;
+    background-color:var(--grey);
+    width: 10px; 
 }
 
 /*A própria scroll-bar*/
 ::-webkit-scrollbar-thumb{
     border-radius: 20px;
-    background-color:var(--blue-cian);
+    background-color: var(--pink);
 }
 
 .class-body {
     overflow-x: hidden;
-    background-color: rgb(255, 255, 255);
-    /* width: calc(100% - 10px);     */
+    background-color: var(--white);
+    background-color: light-dark(var(--white) , var(--black-dark));
 }
 
 :root{
@@ -39,4 +39,21 @@
     --grey:#ECECEC;
     --black:#1f1f1f;
     --white:#fff;
+    --smoke:#a4a4a4;
+
+    --black-dark:#404040;
+}
+
+:root.dark{
+    --pink:#FF94B2;
+    --blue-cian:#00B3C2;
+    --blue-marine:#017984;
+    --grey:#ECECEC;
+    --black:#1f1f1f;
+    --white:#fff;
+    --smoke:#a4a4a4;
+
+    --black-dark:#404040;
+        
+    color-scheme: light dark;
 }

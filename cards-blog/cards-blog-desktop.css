@@ -19,7 +19,7 @@
     }
 
     .cards-blog-third>a {
-        color: var(--blue-marine);
+        color:light-dark( var(--blue-marine),  var(--black-dark));
         font-weight: 600;
         font-size: 1.3em;
         padding: 0px 20px;

@@ -1,17 +1,16 @@
 @media screen and (min-width:1024px) {
 
     #footer-contact {
+        gap: 15px;
+        height: 150px;
         font-size: 1.5em;
+    }
+
+    .whats{
+        height: 20px;
     }
 
     #footer-contact>hr {
         width: 800px;
-    }
-
-    .link-whats>li:hover {
-        color: var(--white);
-        background-color: #184547;
-        border: var(--white);
-        transition: .2s;
     }
 }

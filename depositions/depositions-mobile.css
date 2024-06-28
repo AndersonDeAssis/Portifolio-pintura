@@ -1,6 +1,6 @@
 #section-depositions>div>h2 {
     text-align: center;
-    color: var(--blue-marine);
+    color: light-dark(var(--blue-marine),var(--white));
 }
 
 .article-social {
@@ -14,9 +14,9 @@
     width: 200px;
     margin: 20px auto;
     padding: 20px;
-    background-color: var(--grey);
-    border: 2px solid var(--blue-marine);
-    color: var(--blue-marine);
+    background-color: light-dark(var(--grey),var(--black-dark));
+    border: 2px solid light-dark(var(--blue-marine),var(--white));
+    color: light-dark(var(--blue-marine),var(--white));
 }
 
 .card-social:nth-child(4),

@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     font-weight: 600;
-    color: var(--blue-marine);
+    color: light-dark(var(--blue-marine),var(--white));
     font-style: italic;
 }
 
@@ -13,7 +13,7 @@
     height: 20px;
     margin-right: 10px;
     transform: translateY(4px);
-    background-color: var(--blue-marine);
+    background-color: light-dark(var(--blue-marine),var(--black-dark));
     padding: 2px;
     border-radius: 50%;
 }
@@ -26,7 +26,7 @@
     height: 150px;
     width: 154px;
     display: block;
-    border: solid 2px var(--blue-marine);
+    border: solid 2px light-dark(var(--blue-marine),var(--white));
     border-radius: 50%;
     z-index: -1;
 }
@@ -36,13 +36,6 @@
     width: 100vw;
 }
 
-.div-photo-profile>img {
-    display: block;
-    margin: 20px auto;
-    border: solid 1px var(--blue-marine);
-    border-radius: 50%;
-}
-
 .description-profile {
     display: flex;
     flex-direction: column;
@@ -50,7 +43,7 @@
 }
 
 .description-profile>h2 {
-    color: var(--blue-marine);
+    color: light-dark(var(--blue-marine),var(--white));
     text-align: center;
     margin: 20px 0px 20px 0px;
 }
@@ -64,11 +57,11 @@
 }
 
 strong {
-    color: var(--blue-marine);
+    color: light-dark(var(--blue-marine),var(--pink));
 }
 
 .line-profile {
-    background-color: var(--blue-marine);
+    background-color: light-dark(var(--blue-marine),var(--white));
     height: 1px;
     border: none;
     width: 90%;

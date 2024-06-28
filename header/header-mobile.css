@@ -6,8 +6,38 @@
     background-size: cover;
 }
 
+.button-case{
+    position: relative;
+    top: 10%;
+    left:5%;
+    background-color: var(--white);
+    width: 40px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+.ball{
+    position: relative;
+    left: 0;
+    transform: scale(.8);
+    width: 50%;
+    background-color:var(--black-dark);
+    height: 20px;
+    border-radius: 50px;
+    transition: .4s;
+}
+
+.button-case.dark{
+    background-color: var(--black-dark);
+}
+
+.ball.dark{
+    left:calc(100% - 20px);
+    background-color: var(--white);
+}
+
 .background-header>span {
-    color: var(--white);
+    color:var(--white);
     position: absolute;
 }
 
@@ -19,7 +49,7 @@
 
 .title-anderson2 {
     border-radius: 50px;
-    padding: 2px 20px;
+    padding:0px 20px;
     font-weight: 400;
     font-style: italic;
     top: 100px;
@@ -39,58 +69,63 @@
     display: flex;
     flex-direction: column;
     gap: 3px;
-    z-index: 2;
+    z-index: 3;
 }
 
 #menu-hamburguer>div {
-    background-color: var(--blue-cian);
+    background-color: light-dark(var(--black-dark), var(--smoke));
     height: 3px;
     width: 30px;
     border-radius: 15px;
 }
 
-#section-hamburguer {
-    width: 50vw;
+#section-hamburguer>ul{
+    top: 0px;
+    right: 0px;
+    display: flex;
+    width: 100vw;
     height: 100vh;
-    background: linear-gradient(to top, var(--blue-cian), var(--white)50%);
+    /* background:linear-gradient(to top, var(--blue-cian), var(--white)50%); */
+    background-color: light-dark(var(--white),var(--black-dark));
     position: fixed;
-    display: none;
     flex-direction: column;
     justify-content: space-around;
     pointer-events: none;
-    
     /*faz com que o usurio nao consiga clicar em algo que ainda nao esta aparecendo*/
+    z-index: 2;
+    transition: 0.8s ease-in-out;
+    transform: translateX(100%);
 }
 
-
-#section-hamburguer.active {
-    display: flex;
-    left: 50%;
-    pointer-events: all;
+#section-hamburguer>ul.open{
+    transform: translateX(0);
 }
 
-#section-hamburguer>li {
+#section-hamburguer>ul>li{
     font-weight: 600;
-    margin: 0px 30px;
-    pointer-events: all;
+        padding: 0px 0px 0px 30px;
+        pointer-events: all;
 }
 
-#section-hamburguer>li>a {
-    color: var(--blue-cian);
+#section-hamburguer>ul>li>a {
+    color:light-dark(var(--black-dark), var(--smoke));
 }
 
 .logo-hamburguer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     position: relative;
 }
 
-.logo-hamburguer>img {
+.logo-hamburguer>.logo-img {
+    background-image: url(../imagens/logo-pequena.png);
     height: 50px;
     width: 50px;
 }
 
 .logo-hamburguer>p {
-    color: var(--white);
+    margin-top: 5px;
+    color: light-dark(var(--black-dark), var(--smoke));
 }

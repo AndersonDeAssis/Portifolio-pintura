@@ -91,6 +91,16 @@
         font-size: 7em;
     }
 
+    .nav-works>ul>li>a {
+        color: var(--blue-marine);
+        padding: 2px 15px;
+    }
+    
+    .nav-works>ul>li>a:hover {
+        background-color: var(--blue-marine);
+        color:var(--white);
+    }
+
     .works {
         flex-direction: row;
         gap: 50px;

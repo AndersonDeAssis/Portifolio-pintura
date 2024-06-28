@@ -7,9 +7,23 @@
         background-attachment: fixed;
     }
 
+        .button-case{
+
+            width: 80px;
+            height: 40px;
+        }
+        
+        .ball{
+            height: 40px;
+        }
+        
+        .ball.dark{
+            left:calc(100% - 40px);
+        }
+
     #logo {
         position: relative;
-        top: 10%;
+        top: 2%;
         left: 85%;
         height: 100px;
         width: 100px;
@@ -31,7 +45,7 @@
         font-style: italic;
     }
 
-    #menu-hamburguer {
+    .menu-mobile {
         display: none;
     }
 
@@ -51,13 +65,13 @@
     }
 
     .menu>nav>ul>li>a {
-        color: var(--blue-marine);
+        color: light-dark(var(--blue-marine), var(--white));
         padding: 5px 20px;
         border-radius: 50px;
     }
 
     .menu>nav>ul>li>a:hover {
-        background-color: var(--blue-cian);
+        background-color: light-dark(var(--blue-cian), var(--pink));
         color: var(--white);
     }
 
@@ -66,15 +80,10 @@
         align-items: center;
     }
 
-    .link-whats-desktop>picture {
-        font-weight: 500;
-        color: var(--blue-marine);
-    }
-
     .link-whats-desktop>img {
         height: 30px;
         margin-right: 10px;
-        background-color: var(--blue-marine);
+        background-color: light-dark(var(--blue-marine), var(--black-dark));
         padding: 2px;
         border-radius: 50%;
     }
@@ -84,7 +93,6 @@
     }
 
     .buttons-menu {
-        color: var(--blue-marine);
         display: flex;
         height: 80px;
         flex-direction: row;
@@ -98,6 +106,6 @@
     }
 
     .buttons-menu>a:visited {
-        color: var(--blue-marine);
+        color: light-dark(var(--blue-marine), var(--white));
     }
 }
