@@ -1,0 +1,33 @@
+.img-one{
+    background-image: url(imagens-blog/tinta-rosa-pequena.jpg);
+}
+
+.img-two{
+    background-image: url(imagens-blog/sala-pequena.jpg);
+}
+
+.img-three{
+    background-image: url(imagens-blog/varanda-pequena.jpg);
+}
+
+.img-four{
+    background-image: url(imagens-blog/mofo-pequeno.jpg);
+}
+
+@media screen and (min-width:1024px){
+    .img-one{
+        background-image: url(imagens-blog/tinta-rosa-media.jpg);
+    }
+    
+    .img-two{
+        background-image: url(imagens-blog/sala-media.jpg);
+    }
+    
+    .img-three{
+        background-image: url(imagens-blog/varanda--media.jpg);
+    }
+    
+    .img-four{
+        background-image: url(imagens-blog/mofo-medio.png);
+    }
+}

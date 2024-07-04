@@ -1,0 +1,41 @@
+.list-crack>li{
+    font-size: 1.1em;
+}
+
+.list-crack>li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.img-one{
+    background-image: url(imagens-blog/rachadura-pequena.jpg);
+}
+
+.img-two{
+    background-image: url(imagens-blog/trinca-pequena.jpg);
+}
+
+.img-three{
+    background-image: url(imagens-blog/abertura-pequena.jpg);
+}
+
+.img-four{
+    background-image: url(imagens-blog/fenda-pequena.jpg);
+}
+
+@media screen and (min-width:1024px){
+    .img-one{
+        background-image: url(imagens-blog/rachadura-media.jpg);
+    }
+    
+    .img-two{
+        background-image: url(imagens-blog/trinca-media.jpg );
+    }
+    
+    .img-three{
+        background-image: url(imagens-blog/abertura-media.jpg);
+    }
+    
+    .img-four{
+        background-image: url(imagens-blog/fenda-media.jpg);
+    }
+}

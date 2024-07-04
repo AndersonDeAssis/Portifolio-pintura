@@ -1,3 +1,8 @@
+h2>a{
+    color: light-dark(var(--blue-marine), var(--white));
+    font-style: italic;
+}
+
 #section-cards-blog {
     width: 100vw;
     padding: 20px;

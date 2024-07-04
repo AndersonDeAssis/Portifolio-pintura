@@ -1,0 +1,33 @@
+.img-one{
+    background-image: url(imagens-blog/peach-fuzz-mobile.jpg);
+}
+
+.img-two{
+    background-image: url(imagens-blog/decoracao-pequena.jpg);
+}
+
+.img-three{
+    background-image: url(imagens-blog/interior-casa.jpg);
+}
+
+.img-four{
+    background-image: url(imagens-blog/peach-fuzz-pequeno.jpg);
+}
+
+@media screen and (min-width:1024px){
+    .img-one{
+        background-image: url(imagens-blog/peach-fuzz-media.jpg);
+    }
+    
+    .img-two{
+        background-image: url(imagens-blog/decoracao-media.jpg);
+    }
+    
+    .img-three{
+        background-image: url(imagens-blog/interior-casa-media.jpg);
+    }
+    
+    .img-four{
+        background-image: url(imagens-blog/peach-fuzz-media-quadro.jpg);
+    }
+}

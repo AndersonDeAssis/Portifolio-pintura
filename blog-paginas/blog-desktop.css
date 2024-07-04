@@ -1,0 +1,101 @@
+@media screen and (min-width:1024px) {
+
+    p {
+        max-width: 1000px;
+        font-size: 1.1em;
+    }
+
+    button {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .arrow-top{
+        right: 3%;
+    }
+
+    .list-header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .home-container {
+        top: 0px;
+        width: 100px;
+    }
+
+    .home {
+        height: 40px;
+    }
+
+    .button-case {
+        top: 10%;
+        left: 5%;
+        width: 80px;
+        height: 40px;
+    }
+
+    .ball {
+        height: 40px;
+    }
+
+
+    .ball.dark {
+        left: calc(100% - 40px);
+    }
+
+    .logo-container {
+        margin: 10px 0px;
+    }
+
+    .image-banner {
+        background-image: url(imagens-blog/profissonal2.jpg);
+        height: 400px;
+    }
+
+    .line-article {
+        gap: 50px;
+        transform: translateY(-60px);
+    }
+
+    .picture-one,.picture-two,.picture-three {
+        height: 120px;
+        width: 250px;
+    }
+
+    .icons{
+        height: 70px;
+    }
+
+    .section-idea {
+        padding-bottom: 80px;
+    }
+
+    .section-idea>h2 {
+        color: light-dark(var(--blue-marine), var(--pink));
+    }
+
+    .section-add {
+        padding: 20px 0px;
+        flex-direction: row;
+        gap: 80px;
+    }
+
+    .add {
+        background-size: cover;
+        height: 300px;
+        width: 700px;
+    }
+
+    .section-work {
+        padding: 20px 0px;
+        gap: 30px;
+    }
+
+    .line-works {
+        flex-direction: row;
+    }
+}

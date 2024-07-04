@@ -42,6 +42,7 @@
     --smoke:#a4a4a4;
 
     --black-dark:#404040;
+    --black-dark2:#7d7d7d;
 }
 
 :root.dark{
@@ -54,6 +55,7 @@
     --smoke:#a4a4a4;
 
     --black-dark:#404040;
+    --black-dark2:#606060;
         
     color-scheme: light dark;
 }

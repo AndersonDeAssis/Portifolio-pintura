@@ -1,19 +1,33 @@
-let ballTemeDark = document.querySelector('.button-case')
-let ball = document.querySelector('.ball')
-let raizSite = document.documentElement
+var ballTemeDark = document.querySelector('.button-case')
 
 ballTemeDark.addEventListener('click', () => {
+
+    let ball = document.querySelector('.ball')
+    let raizSite = document.documentElement
+
     ballTemeDark.classList.toggle('dark')
     ball.classList.toggle('dark')
     raizSite.classList.toggle('dark')
 
-    localStorage.setItem ("darkMode", "on")
+    localStorage.setItem("darkMode", "on")
 })
 
 var buttonMenu = document.getElementById('menu-hamburguer')
-var ulHamburguer = document.getElementById('ul-hamburguer')
+let ulHamburguer = document.getElementById('ul-hamburguer')
 
-buttonMenu.addEventListener("click", ()=>{
+buttonMenu.addEventListener("click", () => {
     ulHamburguer.classList.toggle('open')
+})
 
+var arrowTop = document.querySelector('.arrow-top')
+
+window.addEventListener('scroll', ()=>{
+    arrowTop.classList.toggle('active', window.scrollY > 100)
+})
+
+arrowTop.addEventListener('click', ()=>{
+    window.scrollTo({
+        top:0,
+        behavior: 'smooth'
+    })
 })

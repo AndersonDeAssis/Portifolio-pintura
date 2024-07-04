@@ -58,12 +58,3 @@
 .before-after:not(:nth-child(3)) {
     margin-bottom: 20px;
 }
-
-.banner-slide {
-    background-image: url(../imagens/fundo-cimento-queimado-pequeno.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 20px 0px;
-    width: 100vw;
-    height: 200px;
-}

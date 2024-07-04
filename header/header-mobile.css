@@ -6,6 +6,23 @@
     background-size: cover;
 }
 
+.arrow-top{
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+    background-color: light-dark(var(--blue-marine), var(--pink));
+    border-radius: 50%;
+    padding: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .10s ease-in-out;
+}
+
+.arrow-top.active{
+    opacity: 1;
+    visibility: visible;
+}   
+
 .button-case{
     position: relative;
     top: 10%;
@@ -69,7 +86,7 @@
     display: flex;
     flex-direction: column;
     gap: 3px;
-    z-index: 3;
+    z-index: 4;
 }
 
 #menu-hamburguer>div {
@@ -92,7 +109,7 @@
     justify-content: space-around;
     pointer-events: none;
     /*faz com que o usurio nao consiga clicar em algo que ainda nao esta aparecendo*/
-    z-index: 2;
+    z-index: 3;
     transition: 0.8s ease-in-out;
     transform: translateX(100%);
 }

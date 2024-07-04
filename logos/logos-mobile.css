@@ -1,0 +1,15 @@
+#logos>h2{
+    color: light-dark(var(--blue-marine), var(--white));
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#logos>div{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto 20px auto;
+    background-color: rgb(173, 173, 173);
+    height: 100px;
+    width: 300px;
+}

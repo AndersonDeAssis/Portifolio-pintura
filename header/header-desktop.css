@@ -7,19 +7,23 @@
         background-attachment: fixed;
     }
 
-        .button-case{
+    .arrow-top{
+        right: 3%;
+    }
 
-            width: 80px;
-            height: 40px;
-        }
-        
-        .ball{
-            height: 40px;
-        }
-        
-        .ball.dark{
-            left:calc(100% - 40px);
-        }
+    .button-case {
+
+        width: 80px;
+        height: 40px;
+    }
+
+    .ball {
+        height: 40px;
+    }
+
+    .ball.dark {
+        left: calc(100% - 40px);
+    }
 
     #logo {
         position: relative;
