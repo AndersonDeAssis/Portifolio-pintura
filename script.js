@@ -31,3 +31,21 @@ arrowTop.addEventListener('click', ()=>{
         behavior: 'smooth'
     })
 })
+
+// a pagina sera carregada com essa opção em true
+document.getElementById('radio1').checked = true
+let cont = 1
+
+
+setInterval(()=>{
+    nextImage()
+}, 6000)
+
+function nextImage(){
+    cont++
+    if(cont > 3){
+        cont = 1
+    }
+
+    document.getElementById('radio'+cont).checked = true
+}
