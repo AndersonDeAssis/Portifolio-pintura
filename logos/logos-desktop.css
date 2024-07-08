@@ -5,11 +5,13 @@
     width: 100%;
     height: auto;
     padding: 0;
+    overflow: hidden;
 }
 
 .carousel-content {
     width: 400%;
     display: flex;
+    overflow: hidden;
 }
 
 .carousel>input{
