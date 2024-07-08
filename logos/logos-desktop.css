@@ -55,9 +55,9 @@
 }
 
 #radio2:checked ~ .carousel-content>.first{
-    transform: translateX(-25%);
+    transform: translateX(-100%);
 }
 
 #radio3:checked ~ .carousel-content>.first{
-    transform: translateX(-50%);
+    transform: translateX(200%);
 }
