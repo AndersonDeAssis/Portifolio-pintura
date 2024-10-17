@@ -1,5 +1,10 @@
 @media screen and (min-width:1024px) {
 
+    #footer-contact>p>img{
+        height: 40px;
+        transform: translateY(10px);
+    }
+
     #footer-contact {
         gap: 15px;
         height: 150px;

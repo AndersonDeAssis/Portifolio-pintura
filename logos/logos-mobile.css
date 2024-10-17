@@ -3,3 +3,91 @@
   text-align: center;
   margin: 20px 0px;
 }
+
+.carousel-title{
+  color:var(--blue-marine);
+  text-align: center;
+  margin-bottom:20px ;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.carousel>h2{
+  text-align: center;
+  color: light-dark(var(--blue-marine), var(--white));
+  margin: 20px 0px;
+}
+
+.carousel-content {
+  width: 400%;
+  height: 100px;
+  display: flex;
+}
+
+.carousel>input{
+  display: none;
+}
+
+.slide {
+  width: 25%;
+  height: 100%;
+  transition: 3s;
+  overflow: hidden;
+}
+
+.slide>img {
+  width: 100%;
+}
+
+.nav-auto {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.first{
+  background-image: url(../imagens/marca-um-pequeno.jpg);
+  background-size: cover;
+}
+
+.second{
+  background-image: url(../imagens/marca-dois-pequeno.jpg);
+  background-size: cover;
+}
+
+#auto-btn1,
+#auto-btn2,
+#auto-btn3 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: light-dark(var(--white), var(--black-dark));
+  border: 1px solid light-dark(var(--blue-marine), var(--pink));
+}
+
+#radio1:checked ~ .nav-auto>#auto-btn1,
+#radio2:checked ~ .nav-auto>#auto-btn2,
+#radio3:checked ~ .nav-auto>#auto-btn3{
+  background-color:light-dark(var(--blue-marine), var(--pink));
+}
+
+#radio1:checked ~ .carousel-content>.first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .carousel-content>.first{
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .carousel-content>.first{
+  margin-left: -50%;
+}

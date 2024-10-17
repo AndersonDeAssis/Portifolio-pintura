@@ -1,0 +1,24 @@
+@media screen and (min-width:1024px) {
+
+    .img-one{
+        background-image: url(../imagens/foto\ perfil.jpeg);
+        height: 550px;
+        background-position: top;
+    }
+
+    .service, .service-par {
+      
+        flex-direction: row;
+        height: 300px;
+    }
+
+    .infos{
+        width: 700px;
+    }
+
+    .photo-service{
+        width:350px;
+        height: 350px;
+    }
+
+}
