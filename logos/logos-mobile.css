@@ -26,8 +26,8 @@
 }
 
 .carousel-content {
-  width: 400%;
-  height: 100px;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   overflow: hidden;
 }
