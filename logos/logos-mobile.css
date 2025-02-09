@@ -29,6 +29,7 @@
   width: 400%;
   height: 100px;
   display: flex;
+  overflow: hidden;
 }
 
 .carousel>input{
